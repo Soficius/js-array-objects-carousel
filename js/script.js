@@ -89,7 +89,7 @@ document.getElementById('prev').addEventListener('click', function(){
     if(active > 0){
         active--
     } else{
-        active = imgs.length - 1 
+        active = images.length - 1 
     }
     const newActiveImg = imgsEls[active];
     activeImg.classList.remove('active');
@@ -99,7 +99,7 @@ document.getElementById('prev').addEventListener('click', function(){
 // 6.mi metto in ascolto del click del btn next
 document.getElementById('next').addEventListener('click', function(){
     const activeImg = imgsEls[active];
-    if(active < imgs.length - 1 ){
+    if(active < images.length - 1 ){
         active++
     } else{
         active = 0
