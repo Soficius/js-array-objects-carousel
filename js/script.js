@@ -30,7 +30,7 @@ const images = [
   ];
 
 // 2. creo una variabile per ricordami l'immagine attiva
-let active = 3;
+let active = 3
 const carosello = document.getElementById('carosello')
 
 // 3. creo costante per tenere gli elementi generati
